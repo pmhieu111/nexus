@@ -1,0 +1,17 @@
+❤️ hướng dẫn chạy cho linux or window ( window thì chạy thêm lệnh wsl --install ở đầu )
+
+
+sudo apt update && sudo apt upgrade 
+sudo apt install build-essential pkg-config libssl-dev git-all 
+sudo apt install protobuf-compiler
+sudo apt install build-essential
+sudo apt install pkg-config
+sudo apt install libssl-dev
+
+curl https://sh.rustup.rs -sSf | sh
+chạy xong cái trên thì tắt đi bật lại 
+
+sau đó chạy : curl https://cli.nexus.xyz | sh
+nhập id vô để nó tải chờ nó chạy là xong - mỗi lần thoát ra vô lại thì chạy lệnh trên là xong 
+echo "nhập id vô đây" > ~/.nexus/prover-id
+
